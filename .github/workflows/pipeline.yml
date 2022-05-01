@@ -2,7 +2,6 @@ name: GitHub Actions Demo
 on:
   schedule:
     - cron: "0 */6 * * *"
-  push: ~
   workflow_dispatch: ~
 jobs:
   generate-m3u:
