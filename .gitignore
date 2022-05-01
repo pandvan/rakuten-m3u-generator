@@ -1,0 +1,10 @@
+# Python stuff
+__pycache__/
+
+# IDE
+.vscode/
+
+# Artifacts
+dist/
+output/
+list/

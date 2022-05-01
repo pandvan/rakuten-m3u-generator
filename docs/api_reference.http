@@ -1,0 +1,137 @@
+GET https://gizmo.rakuten.tv/v3/live_channels
+    ?classification_id=36
+    &device_identifier=web
+    #&device_stream_audio_quality=2.0
+    #&device_stream_hdr_type=NONE
+    #&device_stream_video_quality=FHD
+    #&epg_ends_at=2022-04-24T14%3A00%3A00.000Z
+    #&epg_starts_at=2022-04-24T11%3A00%3A00.000Z
+    &locale=it
+    &market_code=it
+    &page=1
+    &per_page=100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0' 
+# Accept: application/json, text/plain, */*'
+# Accept-Language: en-US,en;q=0.5
+# Accept-Encoding: gzip, deflate, br
+Origin: https://rakuten.tv
+# Connection: keep-alive'
+Referer: https://rakuten.tv/
+# Sec-Fetch-Dest: empty
+# Sec-Fetch-Mode: cors
+# Sec-Fetch-Site: same-site
+# Pragma: no-cache
+# Cache-Control: no-cache
+# TE: trailers
+
+###
+
+GET https://gizmo.rakuten.tv/v3/live_channel_categories
+    ?classification_id=36
+    &device_identifier=web
+    # &device_stream_audio_quality=2.0
+    # &device_stream_hdr_type=NONE
+    # &device_stream_video_quality=FHD
+    &locale=it
+    &market_code=it
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0
+# Accept: application/json, text/plain, */*
+# Accept-Language: en-US,en;q=0.5
+# Accept-Encoding: gzip, deflate, br
+Origin: https://rakuten.tv
+# Connection: keep-alive
+Referer: https://rakuten.tv/
+# Sec-Fetch-Dest: empty
+# Sec-Fetch-Mode: cors
+# Sec-Fetch-Site: same-site
+# Pragma: no-cache
+# Cache-Control: no-cache
+# TE: trailers
+
+###
+
+POST https://gizmo.rakuten.tv/v3/avod/streamings
+     ?classification_id=36
+     &device_identifier=web
+     &device_stream_audio_quality=2.0
+     &device_stream_hdr_type=NONE
+     &device_stream_video_quality=FHD
+     &disable_dash_legacy_packages=false
+     &locale=it
+     &market_code=it
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0
+# Accept: application/json, text/plain, */*
+# Accept-Language: en-US,en;q=0.5
+# Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Origin: https://rakuten.tv
+# Connection: keep-alive
+Referer: https://rakuten.tv/
+# Sec-Fetch-Dest: empty
+# Sec-Fetch-Mode: cors
+# Sec-Fetch-Site: same-site
+# Pragma: no-cache
+# Cache-Control: no-cache
+# TE: trailers
+
+{
+    "audio_language":"ENG",
+    "audio_quality":"2.0",
+    "classification_id":"36",
+    "content_id":"clubbing-tv",
+    "content_type":"live_channels",
+    "device_serial":"not implemented",
+    "player":"web:HLS-NONE:NONE",
+    "strict_video_quality":false,
+    "subtitle_language":"MIS",
+    "video_type":"stream"
+}
+
+# {
+#     "audio_language":"ENG",
+#     "audio_quality":"2.0",
+#     "classification_id":"36",
+#     "content_id":"clubbing-tv",
+#     "content_type":"live_channels",
+#     "gdpr_consent_opt_out":"0",
+#     "gdpr_consent":"CPTjSMAPX7b4AADABBENCMCgAAAAAH_AAAAAAAAM-YuyFS4ClLAwFDQARQAUQAoIAABBkAAACAABAAAEAAAQAgBAABAAAAAAAAAAAAAQAQAAgAAAAIAAAAAAAAAAAAQQAAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAIAAABAACAACAAAAAAIAAA.YAAAAAAAA4DA","device_serial":"not implemented","device_stream_video_quality":"HD","device_uid":"9c466012-c5a1-4d07-83af-8d235943e8d6","device_year":"2019","hdr_type":"NONE","ifa_subscriber_id":null,"player":"web:HLS-NONE:NONE","player_width":1920,"player_height":1080,"publisher_provided_id":"51277749-a967-4f07-aebc-af036bcfee80",
+#     "strict_video_quality":false,
+#     "subtitle_language":"MIS",
+#     "subtitle_formats":["vtt"],
+#     "video_type":"stream"
+# }
+
+###
+
+# Get Stream
+GET https://c83ae24ef628411296c57c63dc20f827.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_TopFree/playlist.m3u8
+    ?ads.content_classification=18
+    &ads.device_lmt=0
+    &ads.device_type=web
+    &ads.device_year=2019
+    &ads.env=prod
+    &ads.gdpr_consent=CPTjSMAPX7b4AADABBENCMCgAAAAAH_AAAAAAAAM-YuyFS4ClLAwFDQARQAUQAoIAABBkAAACAABAAAEAAAQAgBAABAAAAAAAAAAAAAQAQAAgAAAAIAAAAAAAAAAAAQQAAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAIAAABAACAACAAAAAAIAAA.YAAAAAAAA4DA
+    &ads.market=it
+    &ads.player_height=1080
+    &ads.player_width=1920
+    &ads.pod_type=playerpage_midroll
+    &ads.ppid=51277749-a967-4f07-aebc-af036bcfee80
+    &ads.rtv_content_id=2906
+    &ads.rtvid=271861
+    &ads.streaming_id=bcb31010-6d34-46e8-923c-799849573ecd
+    &ads.user_type=visitor
+    &ads.wurl_channel=834
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Origin: https://rakuten.tv
+Connection: keep-alive
+Referer: https://rakuten.tv/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Pragma: no-cache
+Cache-Control: no-cache
+
+###
