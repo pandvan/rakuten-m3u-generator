@@ -21,6 +21,9 @@ jobs:
       - name: Create output directory
         run: mkdir -p ./output
 
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
+
       - name: Generate m3u list
         run: python main.py > ./output/rakuten.m3u
 
