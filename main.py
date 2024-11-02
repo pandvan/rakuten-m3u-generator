@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 
 # system imports
@@ -13,16 +12,16 @@ import requests
 import rakuten
 
 
-def generate_list(channels: List[rakuten.Channel]) -> None:
+def generate_list(channels: List[rakuten.Channel]) -> str:
     list_builder = []
-    
+
     list_builder.append("#EXTM3U")
 
     # get streams
     ch_streams = rakuten.map_channels_streams(channels)
-    
+
     head_line_format = "#EXTINF:-1 tvg-chno={} tvg-id=\"{}\" tvg-name=\"{}\" group-title=\"{}\",{}"
-    
+
     for ch in sorted(channels, key=lambda x: x.channel_number):
         head_line = head_line_format.format(
             ch.channel_number,
@@ -34,9 +33,9 @@ def generate_list(channels: List[rakuten.Channel]) -> None:
 
         list_builder.append(head_line)
         list_builder.append(ch_streams.get(ch.id, "# no_stream"))
-    
+
     return "\n".join(list_builder)
-     
+
 
 def main():
     channels = rakuten.get_channels()

@@ -1,10 +1,12 @@
 # system imports
+import os
 # import pprint
 from collections import namedtuple
 from typing import List
 
 # 3rd parties imports
 import requests
+from dotenv import load_dotenv
 
 
 # Channel definition
@@ -19,6 +21,9 @@ CHANNEL_FIELDS = [
 ]
 
 Channel = namedtuple("Channel", CHANNEL_FIELDS)
+
+# Load configuration
+load_dotenv()
 
 
 class Api:
@@ -35,7 +40,19 @@ class Api:
     referer = "https://rakuten.tv/"
     user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0"
 
-    language = "it"
+    language = os.getenv('CLASSIFICATION', 'it')
+
+    classification_id = {
+       "ch": 319,
+       "de": 307,
+       "fr": 23,
+       "it": 36,
+       "nl": 69,
+       "no": 286,
+       "pl": 277,
+       "ro": 268,
+       "uk": 18,
+    }
 
 
     @classmethod
@@ -47,7 +64,7 @@ class Api:
             "User_Agent": cls.user_agent,
         }
         query = {
-            "classification_id": 36,
+            "classification_id": cls.classification_id[cls.language],
             "device_identifier": "web",
             "locale": cls.language,
             "market_code": cls.language,
@@ -73,7 +90,7 @@ class Api:
             "User_Agent": cls.user_agent,
         }
         query = {
-            "classification_id": 36,
+            "classification_id": cls.classification_id[cls.language],
             "device_identifier": "web",
             "locale": cls.language,
             "market_code": cls.language
@@ -87,7 +104,7 @@ class Api:
 
         return response.json()
 
-    
+
     @classmethod
     def get_live_streaming(cls, channel: Channel, session: requests.Session = None):
         path = "/avod/streamings"
@@ -97,7 +114,7 @@ class Api:
             "User_Agent": cls.user_agent,
         }
         query = {
-            "classification_id": 36,
+            "classification_id": cls.classification_id[cls.language],
             "device_identifier": "web",
             "device_stream_audio_quality": "2.0",
             "device_stream_hdr_type": "NONE",
@@ -110,7 +127,7 @@ class Api:
         data = {
             "audio_language": channel.language_ids[0],
             "audio_quality": "2.0",
-            "classification_id": "36",
+            "classification_id": cls.classification_id[cls.language],
             "content_id": channel.id,
             "content_type": "live_channels",
             "device_serial": "not implemented",
@@ -124,7 +141,7 @@ class Api:
             caller = session
         else:
             caller = requests
-        
+
         response = caller.post(
             cls.api_base_url + path,
             headers=headers,
@@ -138,7 +155,7 @@ class Api:
 # methods
 def map_channels_categories(api_response):
     categories = api_response.get("data", [])
-    
+
     channels_categories_map = {}
     for category in categories:
         name = category.get("name", "no_category")
@@ -146,7 +163,7 @@ def map_channels_categories(api_response):
 
         for channel in channels:
             channels_categories_map[channel] = name
-    
+
     return channels_categories_map
 
 
@@ -161,28 +178,32 @@ def map_channels_streams(channels: List[Channel]):
             .get("stream_infos", [None])[0]\
             .get("url", "# no_url")
 
+        if stream_url != "# no_url":
+            head, sep, tail = stream_url.partition('.m3u8')
+            stream_url = head + sep
+
         ch_stream_map[channel.id] = stream_url
-    
+
     return ch_stream_map
 
 
-def get_channels():
+def get_channels() -> List[Channel]:
     live_channels_raw = Api.get_live_channels()
     categories_raw = Api.get_live_channel_categories()
 
-    # pprint.pprint(live_channels)
+    # pprint.pprint(live_channels_raw)
     # print("\n\n\n\n")
-    # pprint.pprint(categories)
-    
+    # pprint.pprint(categories_raw)
+
     # make channels/category lookup map
     cc_map = map_channels_categories(categories_raw)
-    
+
     # list of all live channels
     ch_list: List(Channels) = []
 
     channels = live_channels_raw.get("data", [])
     for channel in channels:
-        
+
         ch_id = channel.get("id", "no_id")
 
         ch_languages = channel.get("labels", {}).get("languages", [])
@@ -190,7 +211,7 @@ def get_channels():
 
         for lang in ch_languages:
             langs.append(lang.get("id"))
-        
+
         ch = Channel(
             id = ch_id,
             numerical_id = int(channel.get("numerical_id", -1)),
