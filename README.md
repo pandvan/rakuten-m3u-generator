@@ -30,6 +30,7 @@ Supported countries are:
 - Norway: `no`
 - Poland: `pl`
 - Romania: `ro`
+- Sweden: `se`
 - United Kingdom: `uk`
 
 _ATTENTION: Rakuten APIs are geo-blocked_
