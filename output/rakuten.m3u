@@ -47,6 +47,8 @@ https://amg00793-amg00793c41-rakuten-it-5445.playouts.now.amagi.tv/playlist/amg0
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
 #EXTINF:-1 tvg-chno=131 tvg-id="rakuten-viki-new" tvg-name="Rakuten VIKI" group-title="programmi_tv",Rakuten VIKI
 https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_RakutenViki-1/playlist.m3u8
+#EXTINF:-1 tvg-chno=138 tvg-id="bbc-top-gear-it" tvg-name="Top Gear" group-title="programmi_tv",Top Gear
+https://amg00793-amg00793c43-rakuten-it-5537.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearitaly-rakutenit/playlist.m3u8
 #EXTINF:-1 tvg-chno=139 tvg-id="inazuma-eleven-go" tvg-name="Inazuma Eleven Go" group-title="programmi_tv",Inazuma Eleven Go
 https://fb48d2109ad543dbba5100bae02bd86f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_InazumaElevenGo/playlist.m3u8
 #EXTINF:-1 tvg-chno=142 tvg-id="yu-gi-oh-it" tvg-name="Yu-Gi-Oh!" group-title="programmi_tv",Yu-Gi-Oh!
