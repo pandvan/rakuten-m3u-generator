@@ -135,7 +135,7 @@ https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/
 https://lightning-now70s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now70s-rakuten/CDN/playlist.m3u8
 #EXTINF:-1 tvg-chno=551 tvg-id="now-80s" tvg-name="NOW 80s" group-title="musica",NOW 80s
 https://lightning-now80s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now80s-rakuten/CDN/playlist.m3u8
-#EXTINF:-1 tvg-chno=552 tvg-id="now-90s" tvg-name="NOW Rock" group-title="musica",NOW Rock
+#EXTINF:-1 tvg-chno=552 tvg-id="now-rock" tvg-name="NOW Rock" group-title="musica",NOW Rock
 https://lightning-now90s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now90s-rakuten/CDN/playlist.m3u8
 #EXTINF:-1 tvg-chno=553 tvg-id="trace-urban" tvg-name="Trace Urban" group-title="musica",Trace Urban
 https://amg01131-tracetv-amg01131c1-rakuten-us-1081.playouts.now.amagi.tv/playlist/amg01131-tracetvfast-traceurban-rakutenus/playlist.m3u8
