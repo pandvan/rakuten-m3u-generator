@@ -17,7 +17,7 @@ https://2bc7b486c90441a480dcab4bcdc6fbb5.mediatailor.us-east-1.amazonaws.com/v1/
 https://73e5474be2ae422487b18295a9782482.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-4548/master.m3u8
 #EXTINF:-1 tvg-chno=10 tvg-id="family-rakuten-tv" tvg-name="100% Natale - Rakuten TV" group-title="film",100% Natale - Rakuten TV
 https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8
-#EXTINF:-1 tvg-chno=38 tvg-id="bizzarro-movies" tvg-name="Halloween Movies" group-title="film",Halloween Movies
+#EXTINF:-1 tvg-chno=38 tvg-id="bizzarro-movies" tvg-name="DinoMonsters Movies" group-title="film",DinoMonsters Movies
 https://8a0cd8fae5654aeab31dd0958c3f116f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_BizzarroMovies/playlist.m3u8
 #EXTINF:-1 tvg-chno=39 tvg-id="cinema-poliziottesco" tvg-name="Cinema Poliziottesco" group-title="film",Cinema Poliziottesco
 https://6e7b0ca5587e4580a2922d0853ee0498.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_CinemaSegreto/playlist.m3u8
@@ -108,7 +108,7 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 #EXTINF:-1 tvg-chno=397 tvg-id="fashion-tv" tvg-name="Fashion TV" group-title="lifestyle",Fashion TV
 https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
 #EXTINF:-1 tvg-chno=399 tvg-id="the-design-network-new" tvg-name="The Design Network" group-title="lifestyle",The Design Network
-https://8ea28c01e42c4976b9b7cf4d1ee63441.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_TheDesignNetwork-1/playlist.m3u8
+https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist/amg00441-thedesignnetworkllcfast-thedesignnetwork-rakutenus/playlist.m3u8
 #EXTINF:-1 tvg-chno=408 tvg-id="brindiamo" tvg-name="Brindiamo!" group-title="lifestyle",Brindiamo!
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
 #EXTINF:-1 tvg-chno=409 tvg-id="travelxp-eng" tvg-name="Travelxp" group-title="lifestyle",Travelxp
