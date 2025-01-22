@@ -23,7 +23,7 @@ https://6e7b0ca5587e4580a2922d0853ee0498.mediatailor.us-east-1.amazonaws.com/v1/
 https://e441e306a9ec486cb38ccb40494ee054.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-it_WP/playlist.m3u8
 #EXTINF:-1 tvg-chno=53 tvg-id="dark-matter-it-new" tvg-name="Dark Matter - Halloween 2024" group-title="film",Dark Matter - Halloween 2024
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
-#EXTINF:-1 tvg-chno=58 tvg-id="cg-cinema-d-autore" tvg-name="Marcello, Sophia & Co." group-title="film",Marcello, Sophia & Co.
+#EXTINF:-1 tvg-chno=58 tvg-id="cg-cinema-d-autore" tvg-name="I film di Wim Wenders" group-title="film",I film di Wim Wenders
 https://9a97f2f113334de59d1c4dc093b76280.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-it_CGtv/playlist.m3u8
 #EXTINF:-1 tvg-chno=61 tvg-id="grjngo-it" tvg-name="Grjngo - Film Western" group-title="film",Grjngo - Film Western
 https://30a2c5f3e66e4b208d68c6b61d5db155.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_GrjngoFilmWestern/playlist.m3u8
