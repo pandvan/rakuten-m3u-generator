@@ -85,8 +85,6 @@ https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/playlist.m3u8
 #EXTINF:-1 tvg-chno=347 tvg-id="sport-italia" tvg-name="Sport Italia" group-title="sport",Sport Italia
 https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-chno=354 tvg-id="horizonsports-italian" tvg-name="Horizon Sports" group-title="sport",Horizon Sports
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/1c36c1e6-c5fd-11ec-967f-401ac48a6867/0/master.m3u8
 #EXTINF:-1 tvg-chno=360 tvg-id="pfl-mma" tvg-name="PFL MMA" group-title="sport",PFL MMA
 https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-chno=364 tvg-id="motorsport-tv-en" tvg-name="Motorsport.tv" group-title="sport",Motorsport.tv
@@ -156,7 +154,7 @@ https://videosolutions-wedobigstories-rakuten.amagi.tv/hls/amagi_hls_data_rakute
 #EXTINF:-1 tvg-chno=831 tvg-id="cgtn-documentary" tvg-name="CGTN Documentary" group-title="documentari",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-chno=877 tvg-id="euronews-live-ita" tvg-name="Euronews IN DIRETTA" group-title="notizie",Euronews IN DIRETTA
-https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiNWE0YzBjYzgtZWQ1Ni00MjExLTk0ODUtMzAyMTAxMDQ0ZmE1IiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8
+https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiNzhjMGNkYzktMjdhNi00YzA0LWJjMjMtNWJmZDc2Y2ZiMGNlIiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8
 #EXTINF:-1 tvg-chno=881 tvg-id="reuters-new" tvg-name="Reuters" group-title="notizie",Reuters
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-chno=885 tvg-id="revry-news" tvg-name="Revry News" group-title="notizie",Revry News
@@ -166,7 +164,7 @@ https://d7ec4f6950ed4c6d946e497bd44db7ef.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-chno=888 tvg-id="bloomberg-tv-new" tvg-name="Bloomberg Television" group-title="notizie",Bloomberg Television
 https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/playlist.m3u8
 #EXTINF:-1 tvg-chno=892 tvg-id="africanews-eng" tvg-name="Africanews" group-title="notizie",Africanews
-https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiN2NkODQyMjMtNDhkYi00ZmU5LThhMGItY2QzMjEyYTlmYjJmIiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8
+https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiMDQyMTFjOGMtODc3MC00YzA3LThlMmQtZGQ1ZWViYTVmNzMyIiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8
 #EXTINF:-1 tvg-chno=893 tvg-id="cgtn" tvg-name="CGTN" group-title="notizie",CGTN
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-chno=894 tvg-id="newsworld" tvg-name="NewsWorld" group-title="notizie",NewsWorld
