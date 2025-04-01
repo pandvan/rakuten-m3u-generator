@@ -25,9 +25,11 @@ https://f7ad58aa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
 #EXTINF:-1 tvg-chno=58 tvg-id="cg-cinema-d-autore" tvg-name="I film di Wim Wenders" group-title="film",I film di Wim Wenders
 https://9a97f2f113334de59d1c4dc093b76280.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-it_CGtv/playlist.m3u8
+#EXTINF:-1 tvg-chno=60 tvg-id="brividy-cinema-ita" tvg-name="Brividy Cinema" group-title="film",Brividy Cinema
+https://136d462a71e843a886633ffc9d0f9bb2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_Serially/playlist.m3u8
 #EXTINF:-1 tvg-chno=61 tvg-id="grjngo-it" tvg-name="Grjngo - Film Western" group-title="film",Grjngo - Film Western
 https://30a2c5f3e66e4b208d68c6b61d5db155.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_GrjngoFilmWestern/playlist.m3u8
-#EXTINF:-1 tvg-chno=71 tvg-id="risate-all-italiana" tvg-name="Risate all'italiana" group-title="film",Risate all'italiana
+#EXTINF:-1 tvg-chno=71 tvg-id="risate-all-italiana" tvg-name="Alberto Sordi & Co" group-title="film",Alberto Sordi & Co
 https://253cf8b2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1Jpc2F0ZWFsbGl0YWxpYW5hX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-chno=100 tvg-id="crime-rakuten-tv" tvg-name="Serie Crime - Rakuten TV" group-title="programmi_tv",Serie Crime - Rakuten TV
 https://546609034c0e41d7b5852dd870ddb53b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6216/master.m3u8
@@ -35,12 +37,16 @@ https://546609034c0e41d7b5852dd870ddb53b.mediatailor.eu-west-1.amazonaws.com/v1/
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
 #EXTINF:-1 tvg-chno=110 tvg-id="filmrise-relic-hunter-ita" tvg-name="Relic Hunter" group-title="programmi_tv",Relic Hunter
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
+#EXTINF:-1 tvg-chno=111 tvg-id="serially-crime-ita" tvg-name="Serially Crime" group-title="programmi_tv",Serially Crime
+https://bb0eae10f3324ced912bfb79fff13245.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_SeriallyCrime/playlist.m3u8
 #EXTINF:-1 tvg-chno=112 tvg-id="andromeda-it" tvg-name="Andromeda" group-title="programmi_tv",Andromeda
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
 #EXTINF:-1 tvg-chno=118 tvg-id="soap-latino-it" tvg-name="Soap Latino" group-title="programmi_tv",Soap Latino
 https://2bbff49a727b4b1fad4b7928ca7bb0ed.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_SoapLatino/playlist.m3u8
 #EXTINF:-1 tvg-chno=119 tvg-id="soap-turco-it" tvg-name="Soap Turco" group-title="programmi_tv",Soap Turco
 https://f3fabe7fdead448fa4d41b06c2f56a82.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_SoapTurco/playlist.m3u8
+#EXTINF:-1 tvg-chno=121 tvg-id="risate-dal-sud-ita" tvg-name="Risate dal Sud" group-title="programmi_tv",Risate dal Sud
+https://ea65571e3aa748d1a0c2a15a8ab8b07a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_RisatealSud/playlist.m3u8
 #EXTINF:-1 tvg-chno=122 tvg-id="bbc-doctor-who-it" tvg-name="Doctor Who" group-title="programmi_tv",Doctor Who
 https://amg00793-amg00793c17-rakuten-it-5361.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-drwhoitaly-rakutenit/playlist.m3u8
 #EXTINF:-1 tvg-chno=125 tvg-id="bbc-drama-it" tvg-name="BBC Drama" group-title="programmi_tv",BBC Drama
@@ -53,8 +59,6 @@ https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/
 https://amg00793-amg00793c43-rakuten-it-5537.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearitaly-rakutenit/playlist.m3u8
 #EXTINF:-1 tvg-chno=139 tvg-id="inazuma-eleven-go" tvg-name="Inazuma Eleven Go" group-title="programmi_tv",Inazuma Eleven Go
 https://fb48d2109ad543dbba5100bae02bd86f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_InazumaElevenGo/playlist.m3u8
-#EXTINF:-1 tvg-chno=142 tvg-id="yu-gi-oh-it" tvg-name="Yu-Gi-Oh!" group-title="programmi_tv",Yu-Gi-Oh!
-https://bf932ae5b93542d58803496ad0f86999.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-it_YuGiOh/playlist.m3u8
 #EXTINF:-1 tvg-chno=143 tvg-id="mr-bean-it" tvg-name="Mr. Bean" group-title="programmi_tv",Mr. Bean
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
 #EXTINF:-1 tvg-chno=144 tvg-id="mr-bean-live-action" tvg-name="Mr. Bean - Live Action" group-title="programmi_tv",Mr. Bean - Live Action
@@ -154,7 +158,7 @@ https://videosolutions-wedobigstories-rakuten.amagi.tv/hls/amagi_hls_data_rakute
 #EXTINF:-1 tvg-chno=831 tvg-id="cgtn-documentary" tvg-name="CGTN Documentary" group-title="documentari",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-chno=877 tvg-id="euronews-live-ita" tvg-name="Euronews IN DIRETTA" group-title="notizie",Euronews IN DIRETTA
-https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiMWQyZmY0ZDMtM2E5ZS00NzMyLWI1MDctODc1NDJiYWFiYTFjIiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8
+https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiNjI5ZGE4NzUtMGFhYi00NThjLWJiNTQtNWY1YjNiMTY3ZGZmIiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8
 #EXTINF:-1 tvg-chno=881 tvg-id="reuters-new" tvg-name="The Reuters 60" group-title="notizie",The Reuters 60
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-chno=885 tvg-id="revry-news" tvg-name="Revry News" group-title="notizie",Revry News
@@ -164,7 +168,7 @@ https://d7ec4f6950ed4c6d946e497bd44db7ef.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-chno=888 tvg-id="bloomberg-tv-new" tvg-name="Bloomberg Television" group-title="notizie",Bloomberg Television
 https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/playlist.m3u8
 #EXTINF:-1 tvg-chno=892 tvg-id="africanews-eng" tvg-name="Africanews" group-title="notizie",Africanews
-https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiYTcwOGM4M2YtNzJmZC00NzRhLWEyYzUtZjAzNzBkMWYwNzliIiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8
+https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiNjg4NGFjMjItYWMyYS00NGU4LTk5ZGUtMjhiNjlhY2E1ZmFlIiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8
 #EXTINF:-1 tvg-chno=893 tvg-id="cgtn" tvg-name="CGTN" group-title="notizie",CGTN
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-chno=894 tvg-id="newsworld" tvg-name="NewsWorld" group-title="notizie",NewsWorld
