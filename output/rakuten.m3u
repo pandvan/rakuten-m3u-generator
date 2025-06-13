@@ -113,8 +113,6 @@ https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
 #EXTINF:-1 tvg-chno=470 tvg-id="gusto-tv-new" tvg-name="Gusto TV" group-title="cucina",Gusto TV
 https://563f72af.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0d1c3RvVFZfSExT/playlist.m3u8
-#EXTINF:-1 tvg-chno=537 tvg-id="clubbing-tv" tvg-name="CLUBBING TV" group-title="musica",CLUBBING TV
-https://clubbingtv-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-clubbingtv-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-chno=538 tvg-id="qwest-tv" tvg-name="Qwest TV" group-title="musica",Qwest TV
 https://qwestjazz-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-qwestjazz-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-chno=540 tvg-id="radio-italia-trend" tvg-name="Radio Italia Trend" group-title="musica",Radio Italia Trend
@@ -158,7 +156,7 @@ https://videosolutions-wedobigstories-rakuten.amagi.tv/hls/amagi_hls_data_rakute
 #EXTINF:-1 tvg-chno=831 tvg-id="cgtn-documentary" tvg-name="CGTN Documentary" group-title="documentari",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-chno=877 tvg-id="euronews-live-ita" tvg-name="Euronews IN DIRETTA" group-title="notizie",Euronews IN DIRETTA
-https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiOTE2MjUyMDYtYmI5Ni00NzA0LTk3ZmYtYzBlMWVmNGVjOTVmIiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8
+https://euronews-live-ita-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6570/bitok/eyJzdGlkIjoiNDUxNTVjZmQtZWNiNy00ZTdiLTljMzgtMWUyMzBlZWFiNWZhIiwibWt0IjoiaXQiLCJjaCI6NjU3MCwicHRmIjo1fQ%3D%3D/25674/euronews-it.m3u8
 #EXTINF:-1 tvg-chno=881 tvg-id="the-reuters-60" tvg-name="The Reuters 60" group-title="notizie",The Reuters 60
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-chno=885 tvg-id="revry-news" tvg-name="Revry News" group-title="notizie",Revry News
@@ -168,7 +166,7 @@ https://e96a7526.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-chno=888 tvg-id="bloomberg-tv-plus" tvg-name="Bloomberg TV+" group-title="notizie",Bloomberg TV+
 https://86ebec83.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ1RWUGx1c19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-chno=892 tvg-id="africanews-eng" tvg-name="Africanews" group-title="notizie",Africanews
-https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiNzE4Y2NkMDktOWMwNy00ZTZlLWEyNTktOGQ3OTVkMTVmNDQzIiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8
+https://africanews-eng-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiZjZkNjE0MjAtZDE1NC00NTRkLWI1MTYtNmMyYmIwZWU4ZDk3IiwibWt0IjoiaXQiLCJjaCI6NjU4NywicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8
 #EXTINF:-1 tvg-chno=893 tvg-id="cgtn" tvg-name="CGTN" group-title="notizie",CGTN
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-chno=894 tvg-id="newsworld" tvg-name="NewsWorld" group-title="notizie",NewsWorld
